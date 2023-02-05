@@ -1,10 +1,14 @@
-num = total = cont = 0
+num = total = cont = soma = 0
 while True:
-    num = int(input('Diga um número: '))
+    num = input('Diga um número: ')
     if num == 'end':
         break
-    total += num
-    cont += 1
-    print()
+    try:
+        total = float(num)
+        cont += 1
+        soma += total
+    except:
+        print('Erro na formataçao. Tente novamente.')
+        continue
 print('ACABOU!')
-print(f'O total dos valores foi {float(total)}, a quantidade de valores foi {cont}, a média foi {total/num}')
+print(f'O total dos valores foi {soma}, a quantidade de valores foi {cont}, a média foi {soma/cont}')
