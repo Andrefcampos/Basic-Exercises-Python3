@@ -1,4 +1,4 @@
-abc = 'oi sou gay demais porra'
+abc = 'Sou muito flamengo'
 swap = abc.split()
 print(swap)
 
