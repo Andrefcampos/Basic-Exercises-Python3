@@ -1,0 +1,1 @@
+#c) Crie um programa que leia um dicionário e exiba a média das idades das pessoas no dicionário
